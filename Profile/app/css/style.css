@@ -1,0 +1,31 @@
+body {
+  margin: 0 auto;
+  font-family: 'Dosis', sans-serif;
+}
+
+.formWrapper{
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  background-color: #B1DDEA;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+input, button, textarea {
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 5px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid black;
+}

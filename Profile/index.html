@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ProfileApp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile</title>
+  <!-- doris font -->
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <!-- custom style -->
+  <link rel="stylesheet" href="app/css/style.css">
+</head>
+
+<body>
+
+  <a href="#!/editProfile">Edit Profile</a>
+  <a href="#!/profile">Profile</a>
+
+<ng-view></ng-view>
+
+  <!-- angular link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+  <!-- routing -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.js"></script>
+  <script src="app/app.module.js"></script>
+  <script src="app/app.config.js"></script>
+  <script src="app/compone/compone.component.js"></script>
+  <script src="app/comptwo/comptwo.component.js"></script>
+  <script src="app/app.service.js"></script>
+</body>
+
+</html>
